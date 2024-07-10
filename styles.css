@@ -1,0 +1,24 @@
+/* Estilo para el banner */
+.banner img {
+    width: 100%;
+    height: 20vh; /* Ajustar la altura del banner a 20% de la altura de la pantalla */
+    object-fit: cover;
+}
+
+/* Estilo para el carrusel */
+.carousel-inner img {
+    width: 50%;
+    height: calc(50%vh - 56px); /* Ajustar la altura del carrusel a 80% de la altura de la pantalla menos la altura del banner */
+    object-fit: cover;
+}
+
+/* Ajustes adicionales para asegurar la visibilidad */
+body, html {
+    height: 100%;
+    margin: 25%;
+    padding: 25%;
+}
+
+.carousel {
+    height: calc(50%vh - 56px); /* Ajustar la altura del carrusel a 80% de la altura de la pantalla menos la altura del banner */
+}
